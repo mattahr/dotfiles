@@ -121,7 +121,6 @@
                         "display_mode": "files",
                         "fetch_version": true,
                         "fetch_virtual_env": true,
-                        "enabled": "{{ if .Venv }}true{{ else }}false{{ end }}"
                     },
                     "style": "diamond",
                     "template": "\ue235 {{ if .Venv }}{{ .Venv }} {{ end }}{{ .Full }}",
