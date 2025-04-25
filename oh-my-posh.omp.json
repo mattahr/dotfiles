@@ -124,7 +124,7 @@
                         "enabled": "{{ if .Venv }}true{{ else }}false{{ end }}"
                     },
                     "style": "diamond",
-                    "template": "\ue235 {{ .Venv }} {{ .Full }}",
+                    "template": "\ue235 {{ if .Venv }}{{ .Venv }} {{ .Full }}{{ end }}"
                     "trailing_diamond": "<transparent,background>\ue0b2</>",
                     "type": "python"
                 },
